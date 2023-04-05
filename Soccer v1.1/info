@@ -1,0 +1,375 @@
+{
+  "uuid": "ec58796c39b46763127dda3c9e9286f0",
+  "path": "Offline/Soccer%20v1.1",
+  "name": "Soccer v1.1",
+  "content": "",
+  "created_at": "2023-01-04 22:27:20",
+  "updated_at": "2023-04-05 15:33:10",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "015d9634148c95d74b820eaa4e088109",
+      "title": "Soccer Robot Teensy 4.1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7e35dc25e6964a0a879e0750f202e83c": 2,
+        "b977baca70dd4529ac258ab7f0fba5b8": 1,
+        "ceb3b9ec66f241499f4db28069afc7d1": 4,
+        "b748c9597957c20e30840020c699c4a2": 2,
+        "bc039b47910b4e27899c375779b003fb": 1,
+        "2578d8c37376449cb46637d2d8e1e1ef": 1,
+        "fe743a9e76a64438ae506a01df352b4e": 6,
+        "0d2cd7be314242359b2be957c77273f9": 1,
+        "eaa76950fd7343a1953943ee7b9978d3": 1,
+        "7ba7f10d25a4c09b38ae3c4c1fd5556f": 1,
+        "1c5b39ac72514ccd8747bf87ab52b20b": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "3v3 1",
+          1,
+          "MOLEX-KK254X2",
+          "3V3-1",
+          {
+            "BOM_Manufacturer": "MOLEX",
+            "BOM_Manufacturer Part": "22-11-2022",
+            "BOM_Supplier Part": "22-11-2022 MOLEX",
+            "BOM_Supplier": "TME",
+            "puuid": "ad977580fac24a55b1ebe8c3bfd52911",
+            "uuid": "fe743a9e76a64438ae506a01df352b4e"
+          }
+        ],
+        [
+          "3v3 2",
+          1,
+          "MOLEX-KK254X2",
+          "3V3-2",
+          {
+            "BOM_Manufacturer": "MOLEX",
+            "BOM_Manufacturer Part": "22-11-2022",
+            "BOM_Supplier Part": "22-11-2022 MOLEX",
+            "BOM_Supplier": "TME",
+            "puuid": "ad977580fac24a55b1ebe8c3bfd52911",
+            "uuid": "fe743a9e76a64438ae506a01df352b4e"
+          }
+        ],
+        [
+          "3v3 3",
+          1,
+          "MOLEX-KK254X2",
+          "3V3-3",
+          {
+            "BOM_Manufacturer": "MOLEX",
+            "BOM_Manufacturer Part": "22-11-2022",
+            "BOM_Supplier Part": "22-11-2022 MOLEX",
+            "BOM_Supplier": "TME",
+            "puuid": "ad977580fac24a55b1ebe8c3bfd52911",
+            "uuid": "fe743a9e76a64438ae506a01df352b4e"
+          }
+        ],
+        [
+          "3v3 Step-Down",
+          1,
+          "D36V50F3",
+          "3V3SD",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "e4d263545773451582943003fe704d51",
+            "uuid": "bc039b47910b4e27899c375779b003fb"
+          }
+        ],
+        [
+          "5V 1",
+          1,
+          "MOLEX-KK254X2",
+          "5V-1",
+          {
+            "BOM_Manufacturer": "MOLEX",
+            "BOM_Manufacturer Part": "22-11-2022",
+            "BOM_Supplier Part": "22-11-2022 MOLEX",
+            "BOM_Supplier": "TME",
+            "puuid": "ad977580fac24a55b1ebe8c3bfd52911",
+            "uuid": "fe743a9e76a64438ae506a01df352b4e"
+          }
+        ],
+        [
+          "5V 2",
+          1,
+          "MOLEX-KK254X2",
+          "5V-2",
+          {
+            "BOM_Manufacturer": "MOLEX",
+            "BOM_Manufacturer Part": "22-11-2022",
+            "BOM_Supplier Part": "22-11-2022 MOLEX",
+            "BOM_Supplier": "TME",
+            "puuid": "ad977580fac24a55b1ebe8c3bfd52911",
+            "uuid": "fe743a9e76a64438ae506a01df352b4e"
+          }
+        ],
+        [
+          "5V 3",
+          1,
+          "MOLEX-KK254X2",
+          "5V-3",
+          {
+            "BOM_Manufacturer": "MOLEX",
+            "BOM_Manufacturer Part": "22-11-2022",
+            "BOM_Supplier Part": "22-11-2022 MOLEX",
+            "BOM_Supplier": "TME",
+            "puuid": "ad977580fac24a55b1ebe8c3bfd52911",
+            "uuid": "fe743a9e76a64438ae506a01df352b4e"
+          }
+        ],
+        [
+          "5V Step-Down",
+          1,
+          "D36V50F5",
+          "5VSD",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "GoTronic",
+            "BOM_Manufacturer Part": "",
+            "puuid": "3d2cd30fbd6c4383a7990769390ec164",
+            "uuid": "2578d8c37376449cb46637d2d8e1e1ef"
+          }
+        ],
+        [
+          "Senzor lopte",
+          1,
+          "IDC-TH_8P-P2.54-V-R2-C4-S2.54",
+          "BALL",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "IDC Box 2X4 2.54MM",
+            "BOM_Supplier Part": "C9135",
+            "puuid": "7ceb41e9f586431dab7915fe4bf8eef6",
+            "uuid": "b748c9597957c20e30840020c699c4a2"
+          }
+        ],
+        [
+          "BAT IN",
+          1,
+          "MOLEX L1NK 396 2P",
+          "BIN",
+          {
+            "BOM_Supplier": "MOLEX",
+            "BOM_Manufacturer": "MOLEX",
+            "BOM_Manufacturer Part": "2074790002",
+            "BOM_Supplier Part": "C10378",
+            "puuid": "35147a456ae54f7fa29598fc87dae5d8",
+            "uuid": "7e35dc25e6964a0a879e0750f202e83c"
+          }
+        ],
+        [
+          "BAT MOT",
+          1,
+          "MOLEX L1NK 396 2P",
+          "BMOT",
+          {
+            "BOM_Supplier": "MOLEX",
+            "BOM_Manufacturer": "MOLEX",
+            "BOM_Manufacturer Part": "2074790002",
+            "BOM_Supplier Part": "C10378",
+            "puuid": "35147a456ae54f7fa29598fc87dae5d8",
+            "uuid": "7e35dc25e6964a0a879e0750f202e83c"
+          }
+        ],
+        [
+          "Glavna Sklopka",
+          1,
+          "SW-TH_SK-12D02VG3",
+          "GS",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C136722",
+            "BOM_Manufacturer": "Rectangular Connectors - Contacts",
+            "BOM_Manufacturer Part": "SK-12D02-VG5",
+            "puuid": "85479227c6fd485eba9b7c55937c67d9",
+            "uuid": "1c5b39ac72514ccd8747bf87ab52b20b"
+          }
+        ],
+        [
+          "Kamera",
+          1,
+          "HDR-F-2.54_1X4",
+          "KAMERA",
+          {
+            "BOM_Supplier Part": "C225501",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "21473b495b6340c992965357d5701779",
+            "uuid": "eaa76950fd7343a1953943ee7b9978d3"
+          }
+        ],
+        [
+          "Compass BNO055",
+          1,
+          "BNO055",
+          "KOMPAS",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "118b9102eff74ac19b6b0108ce268d2e",
+            "uuid": "b977baca70dd4529ac258ab7f0fba5b8"
+          }
+        ],
+        [
+          "Senzori linije",
+          1,
+          "IDC-TH_8P-P2.54-V-R2-C4-S2.54",
+          "LINE",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "IDC Box 2X4 2.54MM",
+            "BOM_Supplier Part": "C9135",
+            "puuid": "7ceb41e9f586431dab7915fe4bf8eef6",
+            "uuid": "b748c9597957c20e30840020c699c4a2"
+          }
+        ],
+        [
+          "Motor 1",
+          1,
+          "MRMS_MOTOR_DRIVER_1X50A_PCB",
+          "M1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "76f3e8e8547f49e2913137feafaeeaa3",
+            "uuid": "ceb3b9ec66f241499f4db28069afc7d1"
+          }
+        ],
+        [
+          "Motor 2",
+          1,
+          "MRMS_MOTOR_DRIVER_1X50A_PCB",
+          "M2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "76f3e8e8547f49e2913137feafaeeaa3",
+            "uuid": "ceb3b9ec66f241499f4db28069afc7d1"
+          }
+        ],
+        [
+          "Motor 3",
+          1,
+          "MRMS_MOTOR_DRIVER_1X50A_PCB",
+          "M3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "76f3e8e8547f49e2913137feafaeeaa3",
+            "uuid": "ceb3b9ec66f241499f4db28069afc7d1"
+          }
+        ],
+        [
+          "M4",
+          1,
+          "MRMS_MOTOR_DRIVER_1X50A_PCB",
+          "M4",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "76f3e8e8547f49e2913137feafaeeaa3",
+            "uuid": "ceb3b9ec66f241499f4db28069afc7d1"
+          }
+        ],
+        [
+          "Ostali Pinovi",
+          1,
+          "IDC-TH_14P-P2.54-V-R2-C7-S2.54",
+          "OP",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "2X7 2.54mm IDC Box",
+            "BOM_Supplier Part": "C11215",
+            "puuid": "45a845d64c044188803b824eebdc3c05",
+            "uuid": "7ba7f10d25a4c09b38ae3c4c1fd5556f"
+          }
+        ],
+        [
+          "TEENSY 4.1 (ALL PINS)",
+          1,
+          "TEENSY-4.1-ALL-PINS",
+          "T-4",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "325d123290e145b1b9df0d11fe106655",
+            "uuid": "0d2cd7be314242359b2be957c77273f9"
+          }
+        ]
+      ],
+      "updateTime": 1678732582,
+      "createTime": 1672867641,
+      "histories": [],
+      "created_at": "2023-01-04 22:27:21",
+      "updated_at": "2023-03-13 19:36:22"
+    },
+    {
+      "uuid": "a6ed47617015555baf3e82dc9976810e",
+      "puuid": "ec58796c39b46763127dda3c9e9286f0",
+      "title": "PCB_Plocica",
+      "filename": "PCB_Plocica.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ad977580fac24a55b1ebe8c3bfd52911": 6,
+        "3d2cd30fbd6c4383a7990769390ec164": 1,
+        "7ceb41e9f586431dab7915fe4bf8eef6": 2,
+        "21473b495b6340c992965357d5701779": 1,
+        "118b9102eff74ac19b6b0108ce268d2e": 1,
+        "76f3e8e8547f49e2913137feafaeeaa3": 4,
+        "45a845d64c044188803b824eebdc3c05": 1,
+        "e4d263545773451582943003fe704d51": 1,
+        "35147a456ae54f7fa29598fc87dae5d8": 2,
+        "85479227c6fd485eba9b7c55937c67d9": 1,
+        "325d123290e145b1b9df0d11fe106655": 1
+      },
+      "BOM": [],
+      "updateTime": 1678733723,
+      "createTime": 1678660954,
+      "histories": [],
+      "created_at": "2023-03-12 23:42:34",
+      "updated_at": "2023-03-13 19:55:23"
+    }
+  ],
+  "sort": [
+    "d444a2b172bb7451ebd88c66635c553f"
+  ],
+  "title": "Soccer v1.1",
+  "foldername": "Soccer v1.1",
+  "schfilename": "Soccer v1.1.json",
+  "schfilemtime": 1680700434732
+}
